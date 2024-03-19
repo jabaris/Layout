@@ -1,0 +1,91 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.PageHeader-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.PageHeader-wrapper_container{
+    width: 100%;
+    max-width: 988px;
+    margin: 0 auto;
+}
+.PageHeader-wrapper_container_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 0;
+}
+
+.PageHeader-wrapper_container_header_information_row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.PageHeader-wrapper_container_header_information_row_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.PageHeader-wrapper_container_header_information_row_item:not(:last-child){
+    margin: 0 21px 0 0;
+}
+.PageHeader-wrapper_container_header_information_row_item_img{
+    margin: 0 6px 0 0;
+}
+.PageHeader-wrapper_container_header_information_row_item_content{
+    display: flex;
+    flex-direction: column;
+
+}
+.PageHeader-wrapper_container_header_information_row_item_content_title{
+    color: rgb(31, 43, 108);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+.PageHeader-wrapper_container_header_information_row_item_content_subtitle{
+    color: rgb(21, 158, 236);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+}
+
+/* ----------PageHeader-wrapper_container_navigaton--------------------- */
+.PageHeader-wrapper_container_navigaton{
+    background: rgb(31, 43, 108);
+}
+.PageHeader-wrapper_container_navigaton_menu{
+    width: 100%;
+    max-width: 988px;
+    margin: 0 auto;
+}
+.PageHeader-wrapper_container_navigaton_menu_list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 0;
+}
+.PageHeader-wrapper_container_navigaton_menu_list_item{
+    list-style: none;
+}
+.PageHeader-wrapper_container_navigaton_menu_list_item:not(:last-child){
+    margin: 0 18px 0 0;
+}
+.PageHeader-wrapper_container_navigaton_menu_list_item>a{
+    color: rgb(252, 254, 254);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-decoration: none;
+}
+.PageHeader-wrapper_container_navigaton_menu_list_item>a:active{
+    color: rgb(191, 210, 248);
+    font-weight: 600;
+}

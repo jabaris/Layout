@@ -1,0 +1,481 @@
+.App-Main {}
+
+.App-Main_header {
+    position: relative;
+    width: 1366px;
+    height: 600px;
+    margin: 24px auto;
+}
+
+.App-Main_header_image {
+    position: relative;
+    background: linear-gradient(90deg, rgb(229, 228, 232) 20.473%, rgba(235, 234, 239, 0) 39.271%), url(./Images/MainDoctor.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+}
+
+.App-Main_header_image_Ellipse {
+    position: absolute;
+    top: -599px;
+    left: -387px;
+    width: 734px;
+    height: 734px;
+    background: rgb(21, 158, 236);
+    border-radius: 50%;
+    opacity: 0.3;
+}
+
+.App-Main_header_text {
+    position: absolute;
+    top: 167px;
+    left: 187px;
+}
+
+.App-Main_header_text_container>h3 {
+    color: rgb(21, 158, 236);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.App-Main_header_text_container>p {
+    width: 556px;
+    color: rgb(31, 43, 108);
+    font-family: Yeseva One;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.App-Main_header_text_container>button {
+    width: 141px;
+    height: 45px;
+    margin: 42px 0 56px 0;
+    border: 0;
+    border-radius: 50px;
+    background: rgb(191, 210, 248);
+    color: rgb(31, 43, 108);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+
+.App-Main_header_text_boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 32px;
+    width: 930px;
+}
+
+.App-Main_header_text_boxes_day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    width: 260px;
+    height: 100px;
+    border-radius: 5px;
+    background: rgb(31, 43, 108);
+    color: rgb(252, 254, 254);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.App-Main_header_text_boxes_doctor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    width: 298px;
+    height: 100px;
+    border-radius: 5px;
+    background: rgb(191, 210, 248);
+    color: rgb(31, 43, 108);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.App-Main_header_text_boxes_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    width: 263px;
+    height: 100px;
+    border-radius: 5px;
+    background: rgb(21, 158, 236);
+    color: rgb(252, 254, 254);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* ------------------------------------ */
+
+.App-Main_center_first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1366px;
+    gap: 5px;
+    margin: 64px auto 54px;
+}
+
+.App-Main_center_first>h3 {
+    color: rgb(21, 158, 236);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.App-Main_center_first>h2 {
+    width: 400px;
+    margin: 0 auto;
+    color: rgb(31, 43, 108);
+    font-family: Yeseva One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.App-Main_center_first>p {
+    width: 550px;
+    margin: 0 auto;
+    color: rgb(33, 33, 36);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.App-Main_center_first>img {
+    margin: 0 auto;
+}
+
+/* ------------------------------------- */
+
+.App-Main_center_second {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.App-Main_center_second>h3 {
+    margin: 0 0 13px 0;
+    color: rgb(21, 158, 236);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.App-Main_center_second>h2 {
+    margin: 0 0 84px 0;
+    color: rgb(31, 43, 108);
+    font-family: Yeseva One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.App-Main_center_second_container {
+    display: flex;
+    justify-content: space-between;
+    width: 992px;
+    margin: 0 auto;
+}
+
+.App-Main_center_second_container_leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    border: 1px solid rgba(31, 43, 108, 0.2);
+    border-radius: 5px;
+    background: rgb(252, 254, 254);
+}
+
+.App-Main_center_second_container_leftSide>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 157px;
+    height: 106px;
+    text-align: center;
+}
+
+.App-Main_center_second_container_leftSide_bottom {
+    height: 40px !important;
+    border-radius: 0px 0px 5px 5px;
+    background: rgb(31, 43, 108);
+}
+
+.App-Main_center_second_container_middleSide {
+    padding: 8px 36px 0 20px;
+}
+
+.App-Main_center_second_container_middleSide>h1 {
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.App-Main_center_second_container_middleSide>ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 470px;
+    height: 116px;
+    margin: 12px 0;
+}
+
+.App-Main_center_second_container_middleSide>ul>li {
+    width: 200px;
+    color: rgb(0, 0, 0);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.App-Main_center_second_container_middleSide>ul>li::before {
+    content: url(./Images/tochka.svg);
+    padding: 0 10px 0 0;
+}
+
+.App-Main_center_second_container_middleSide>p {
+    width: 400px;
+    margin: 5px 0;
+    color: rgb(33, 33, 36);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.App-Main_center_second_container_rightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    width: 324px;
+}
+
+.App-Main_center_second_container_rightSide>img {
+    height: 220px;
+}
+
+/* ---------------------------------- */
+.App-Main_header_footer_first {
+    margin: 64px 0 0 0;
+}
+
+.App-Main_header_footer_first>h3 {
+    color: rgb(21, 158, 236);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.App-Main_header_footer_first>h2 {
+    color: rgb(31, 43, 108);
+    font-family: Yeseva One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.App-Main_header_footer_first_Doctors {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 992px;
+    margin: 64px auto 130px;
+    overflow: hidden;
+    overflow-x: auto;
+
+}
+
+.App-Main_header_footer_first_Doctors::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.App-Main_header_footer_first_Doctors::-webkit-scrollbar {
+    height: 10px;
+    background-color: rgb(191, 210, 248);
+}
+
+.Doctors {
+    width: 317px;
+    height: 538px;
+    border-radius: 5px;
+    background: rgb(31, 43, 108);
+}
+
+.Doctors>img {
+    width: 317px;
+    height: 350px;
+}
+
+.Doctors_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 317px;
+    height: 142px;
+    background: rgb(191, 210, 248);
+    margin: -4px 0;
+    padding: 24px 48px;
+    text-align: left;
+}
+
+.Doctors_data_name {
+    color: rgb(31, 43, 108);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.Doctors_data_type {
+    color: rgb(31, 43, 108);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 8px 0 16px 0;
+}
+
+.Doctors_data_socNet {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ---------------------------------- */
+
+.App-Main_header_footer_second {
+    width: 992px;
+    margin: 0 auto;
+}
+
+
+.App-Main_header_footer_second>h3 {
+    color: rgb(21, 158, 236);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 16%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.App-Main_header_footer_second>h2 {
+    margin: 5px 0 0 0;
+    color: rgb(31, 43, 108);
+    font-family: Yeseva One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.App-Main_header_footer_second>div {
+    display: flex;
+    gap: 20px;
+    margin: 64px auto;
+}
+
+.App-Main_header_footer_second_white {
+    width: 233px;
+    height: 233px;
+    background: rgb(191, 210, 248);
+    border-radius: 5px;
+    padding: 50px 30px;
+}
+
+.App-Main_header_footer_second_black {
+    width: 233px;
+    height: 233px;
+    background: rgb(31, 43, 108);
+    border-radius: 5px;
+    padding: 50px 30px;
+    color: rgb(191, 210, 248);
+}
+
+.App-Main_header_footer_second_white>h4,
+.App-Main_header_footer_second_black>h4 {
+    margin: 18px 0 5px 0;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.App-Main_header_footer_second_white>h4,
+.App-Main_header_footer_second_black>h4 {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
